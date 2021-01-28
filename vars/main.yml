@@ -1,0 +1,12 @@
+---
+# vars file for phpIPAMDom
+ipam:
+  app_id: ansible # The name you entered for the app id
+  api_user: ansible  # API user created 
+  api_pass: ansible12345
+  token_request: http://127.0.0.1/api/ansible/user/ # Change the URL to match your install
+  available_ip: http://127.0.0.1/api/ansible/addresses/first_free/ 
+  register_ip: http://127.0.0.1/api/ansible/addresses/
+  description: ansible created
+  subnet_id: 7 #This value represents the subnet
+  hostname: Ubuntu01 
